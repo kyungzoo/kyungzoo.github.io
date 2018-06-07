@@ -13,7 +13,7 @@
   #id_form {width:100px; height:14px; color:red;}
 </style>
 <script>
-  function fnGetElementsById(){
+  function fnGetElementsByTagName(){
     var accessTag = document.getElementsByTagName("input")[0];
     console.log(accessTag.tagName);
     accessTag.setAttribute("value","getElementsByTagName실행!");
@@ -34,7 +34,7 @@
     <input id="button_id1" type="button"name="user_id"value="입력"/><br/>
     빈칸에 검색어를 넣고 입력해 주세요.
 <form>
-    <input type="button" onclick="fngetElementsByTagName();" value="변경실행"\>
+    <input type="button" onclick="fnGetElementsByTagName();" value="변경실행"\>
   </form>
 </section>
 <footer>

@@ -14,9 +14,9 @@
 </style>
 <script>
   function fnGetElementsById(){
-    var accessTag = document.getElementByName("input_name1")[0];
+    var accessTag = document.getElementsByName("input_name1")[0];
     console.log(accessTag.tagName);
-    accessTag.setAttribute("value","getElementByName실행!");
+    accessTag.setAttribute("value","getElementsByName실행!");
 }
 </script>
 <title>웹 프로그래밍 실습</title></head>
@@ -34,7 +34,7 @@
     <input id="button_id1" type="button"name="user_id"value="입력"/><br/>
     빈칸에 검색어를 넣고 입력해 주세요.
 <form>
-    <input type="button" onclick="fngetElementByName();" value="변경실행"\>
+    <input type="button" onclick="fngetElementsByName();" value="변경실행"\>
   </form>
 </section>
 <footer>

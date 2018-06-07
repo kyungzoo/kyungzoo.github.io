@@ -14,7 +14,7 @@
 </style>
 <script>
   function fnGetElementsById(){
-    var accessTag = document.getElementById("input_name1")[0];
+    var accessTag = document.getElementByName("input_name1")[0];
     console.log(accessTag.tagName);
     accessTag.setAttribute("value","getElementByName실행!");
 }

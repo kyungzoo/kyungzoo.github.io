@@ -13,10 +13,11 @@
   #id_form {width:100px; height:14px; color:red;}
 </style>
 <script>
-  function fnGetElementsById(){
+  function fnGetElementsByDOM(){
     var accessTag = window.document.form_name1.input_name1;
-    console.log(accessTag.tagName);
-    accessTag.setAttribute("value","getElementsByTagName실행!");
+    console.log(accessTag);
+    accessTag.setAttribute("value","DOM 구조에 의한 실행!");
+    console.log(accessTag.value);
 }
 </script>
 <title>웹 프로그래밍 실습</title></head>
@@ -34,7 +35,7 @@
     <input id="button_id1" type="button"name="user_id"value="입력"/><br/>
     빈칸에 검색어를 넣고 입력해 주세요.
 <form>
-    <input type="button" onclick="fngetElementsByDOM();" value="변경실행"\>
+    <input type="button" onclick="fnGetElementsByDOM();" value="변경실행"\>
   </form>
 </section>
 <footer>

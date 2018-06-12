@@ -12,8 +12,8 @@ header, nav, section, article, aside, footer
 .banner li img{ width:30%; vertical-align:middle;}
 nav ul{margin:0px; padding:0;}
 nav ul li{display:inline; margin:5px;}
-section1{border:2px solid gray; left:0%; right:30%;}
-section2{border:2px solid gray; left:31%; right:61%;} 
+section{border:2px solid gray; left:0%; right:30%;}
+section section{border:2px solid gray; left:31%; right:61%;} 
 
 /* for mobile */
 [class*="col-"]{ width: 100%;}

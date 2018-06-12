@@ -20,58 +20,13 @@
 .col-9{ width:75%;} .col-10{ width:83.33%;} .col-11{ width:91.66%;} .col-12{ width:100%;} }
 body{ font-family: 'Jeju Gothic';}
 .header{height: 150px; margin: 0px; border: 0px; text-align:center;}
-        div{
-          font-family: 'Jeju Gothic';
-        }
-
+div{font-family: 'Jeju Gothic'; }
 footer { height: 100px; clear: both; padding: 20px; text-align: center; font-family: 'Jeju Gothic'; }
-
-
-        .divIndex {
-            width: 50%;
-            float: left;
-            text-align: center;
-            margin: 0 auto;
-            
-        }
-
-        .div100Per {
-            width: 100%;
-            float: left;
-            text-align: center;
-            font-family: 'Jeju Gothic';
-            margin: 0 auto;
-        }
-        
-        .divA{
-          text-align:center;
-        }
-
-        a:link {
-            color: #cf9e0a;
-            background-color: transparent;
-            text-decoration: none;
-            size:30;
-        }
-
-        a:visited {
-            color: #cf9e0a;
-            background-color: transparent;
-            text-decoration: none;
-            size:30;
-        }
-
-        a:hover {
-            color: #cf9e0a;
-            background-color: transparent;
-            text-decoration: underline;
-            size:10;
-        }
-
-        a:active {
-            color: #cf9e0a;
-            background-color: transparent;
-            text-decoration: none;
-            size:10;
-        }
+.divIndex {width: 50%; float: left; text-align: center; margin: 0 auto; }
+.div100Per { width: 100%; float: left; text-align: center; font-family: 'Jeju Gothic'; margin: 0 auto;}
+.divA{ text-align:center;}
+a:link { color: #cf9e0a; background-color: transparent; text-decoration: none; size:30;  }
+a:visited {color: #cf9e0a; background-color: transparent; text-decoration: none; size:30; }
+a:hover { color: #cf9e0a; background-color: transparent; text-decoration: underline; size:10;}
+a:active { color: #cf9e0a; background-color: transparent; text-decoration: none; size:10; }
         

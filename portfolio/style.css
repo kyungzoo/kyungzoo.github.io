@@ -24,12 +24,7 @@ body{ font-family: 'Jeju Gothic';}
           font-family: 'Jeju Gothic';
         }
 
-        footer {
-            height: 200px;
-            margin: 0 auto;
-            text-align: center;
-            font-family: 'Jeju Gothic';
-        }
+footer { height: 100px; clear: both; padding: 20px; text-align: center; font-family: 'Jeju Gothic'; }
 
 
         .divIndex {

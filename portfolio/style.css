@@ -12,9 +12,9 @@ header, nav, section, article, aside, footer
 .banner li img{ width:30%; vertical-align:middle;}
 nav ul{margin:0px; padding:0;}
 nav ul li{display:inline; margin:5px;}
-section{border:2px solid gray; width:30%; float:center;}
-section section{border:2px solid gray; width:30%; float:center;}
-aside{border:2px solid gray;float:center;}
+section{border:2px solid gray; width:33%; float:left;}
+section section{border:2px solid gray; width:33%; float:center;}
+aside{float:center;}
 
 /* for mobile */
 [class*="col-"]{ width: 100%;}

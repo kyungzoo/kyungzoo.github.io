@@ -17,6 +17,7 @@ section section{border:2px solid gray; width:33%; float:center; margin left:5px;
 aside{width:33%; float:right; }
 #block { width:50%; height:50%; background-color:#E6E6E6;  margin:0 auto; }
 #blocka{ width:20%; height:auto; margin:0 auto;}
+#blockb { width:30%; height:auto; background-color:#E6E6E6;  float:left;}
 
 /* for mobile */
 [class*="col-"]{ width: 100%;}

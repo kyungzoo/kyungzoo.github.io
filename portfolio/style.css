@@ -12,10 +12,9 @@ header, nav, section, article, aside, footer
 .banner li img{ width:30%; vertical-align:middle;}
 nav ul{margin:0px; padding:0;}
 nav ul li{display:inline; margin:5px;}
-section{border:2px solid gray; width:30%;float:left;}
-section section{border:2px solid gray; width:30%;float:left;}
-.inline1 {position:absolute; left:0%;  margin-left:20px; margin-right:10px; margin-top:20px; right:70%;}
-.inline2 {position:absolute; left:30%;  margin-left:20px; margin-right:10px; margin-top:20px; right:40%;}
+section{border:2px solid gray; width:30%; float:left;}
+section section{border:2px solid gray; width:30%; float:center;}
+aside{border:2px solid gray; width:30%; float:right;}
 
 /* for mobile */
 [class*="col-"]{ width: 100%;}

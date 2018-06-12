@@ -4,7 +4,7 @@ header, nav, section, article, aside, footer
 @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
 *{ box-sizing:border-box; padding:0; margin:0;}
 .row::after{ content:""; clear:both; display:table;}
-[class*="col-"]{float:left; padding:10px;} .header, .section, .footer{ background-color:lightgray; color: #FAFAFA;}
+[class*="col-"]{float:left; padding:10px;} .header, .section1, .footer{ background-color:lightgray; color: #FAFAFA;}
 .menu ul, .banner ul{list-style-type:none;}
 .menu li{ background-color: #81DAF5; color:black; padding:10px; margin-bottom:10px;}
 .menu li:hover{background-color:red;}
@@ -12,7 +12,7 @@ header, nav, section, article, aside, footer
 .banner li img{ width:30%; vertical-align:middle;}
 nav ul{margin:0px; padding:0;}
 nav ul li{display:inline; margin:5px;}
-section{border:2px solid gray; width:40%; float:left;} 
+section1{border:2px solid gray; width:30%; float:left;} 
 
 /* for mobile */
 [class*="col-"]{ width: 100%;}

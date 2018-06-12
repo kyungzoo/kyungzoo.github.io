@@ -10,7 +10,8 @@ header, nav, section, article, aside, footer
 .menu li:hover{background-color:red;}
 .banner li{ border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
 .banner li img{ width:30%; vertical-align:middle;}
-
+.nav ul{margin:0; padding:0;}
+.nav ul li{display:inline; margin:5px;}
 
 /* for mobile */
 [class*="col-"]{ width: 100%;}

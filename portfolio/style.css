@@ -14,7 +14,7 @@ nav ul{margin:0px; padding:0;}
 nav ul li{display:inline; margin:5px;}
 section{border:2px solid gray; width:30%; float:left;}
 section section{border:2px solid gray; width:30%; float:center;}
-aside{border:2px solid gray; width:30%; float:left;}
+aside{border:2px solid gray;float:left;}
 
 /* for mobile */
 [class*="col-"]{ width: 100%;}

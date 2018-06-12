@@ -29,14 +29,14 @@ body{
             
         }
         div{
-          font-family: 'Do Hyeon';
+          font-family: 'Jeju Gothic';
         }
 
         footer {
             height: 100px;
             margin: 0 auto;
             text-align: center;
-            font-family: 'Nanum Gothic Coding';
+            font-family: 'Jeju Gothic';
         }
 
 
@@ -52,7 +52,7 @@ body{
             width: 100%;
             float: left;
             text-align: center;
-            font-family: 'Poor Story';
+            font-family: 'Jeju Gothic';
             margin: 0 auto;
         }
         
